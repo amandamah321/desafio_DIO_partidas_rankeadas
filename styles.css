@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+header {
+    background-image: url("/desafio_DIO_partidas_rankeadas/img/florian-olivo-Mf23RF8xArY-unsplash.jpg");
+    height: 15rem;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px rgb(12, 12, 80) solid;
+    border-bottom: 5px rgb(12, 12, 80) solid;
+}
+
+main {
+    margin: 2rem 5rem;
+    border: 5px rgb(12, 12, 80) solid;
+    padding: 7rem;
+}
+
+main input {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 2rem;
+    border: none;
+}
+
+main p {
+    padding-top: 5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background: rgb(170, 32, 32);
+    cursor: pointer;
+    border: 1px solid black;
+}
